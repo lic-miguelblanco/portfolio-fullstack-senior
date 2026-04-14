@@ -1,4 +1,4 @@
-![Banner](banner.png)
+![Banner](Banner.png)
 # 🚀 Miguel Angel Blanco Arechiga – Digital Portfolio
 
 ![Profile Views](https://komarev.com/ghpvc/?username=miguelblanco&color=blue)
