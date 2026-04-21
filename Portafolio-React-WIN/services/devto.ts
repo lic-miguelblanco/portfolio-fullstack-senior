@@ -1,7 +1,7 @@
 import { get } from "./_core";
 import { DevArticle } from "./_type";
 
-const BASE_URL = "https://dev.to/api";
+const BASE_URL = "https://dev.to/lic-miguelblanco";
 
 export async function getArticles() {
   const response = await get(BASE_URL + "/articles/me", {
