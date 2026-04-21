@@ -1,0 +1,18 @@
+# Forzar a Git a usar LF en todos los archivos de texto
+* text=auto eol=lf
+
+# Configuración específica para archivos de código
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.json   text eol=lf
+*.css    text eol=lf
+*.md     text eol=lf
+
+# Mantener binarios sin cambios
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
