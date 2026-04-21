@@ -6,11 +6,19 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["gravatar.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "gravatar.com",
+      },
+    ],
   },
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
+  },
+  experimental: {
+    appDir: false,
   },
 };
 
